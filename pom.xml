@@ -29,8 +29,8 @@
             <version>2.4</version>
         </dependency>
         <dependency>
-            <groupId>cn.seczone</groupId>
-            <artifactId>scacodecheck</artifactId>
+            <groupId>cn.xc</groupId>
+            <artifactId>sd</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

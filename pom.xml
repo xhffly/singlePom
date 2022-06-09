@@ -79,6 +79,17 @@
             <artifactId>w</artifactId>
             <version>1.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>5.3.7</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>spring-jcl</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
         <dependency><groupId>w13</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
         <dependency><groupId>w14</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
 <dependency><groupId>w15</groupId><artifactId>w</artifactId><version>1.1</version></dependency>

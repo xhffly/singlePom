@@ -1,75 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>mainTest</artifactId>
-    <version>1.0-SNAPSHOT</version>
+	<groupId>cn.seeeee.w.w</groupId>
+	<artifactId>w-w-w</artifactId>
+	<packaging>pom</packaging>
+	<version>0.1.0</version>
 
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
-    <dependencies>
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>2.7</version>
+	<dependencies>
+	
+		
+		<dependency>
+            <groupId>w</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
+        </dependency>
+        
+		<dependency>
+            <groupId>w2</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
         </dependency>
         <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>2.6</version>
+            <groupId>w3</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
+        </dependency>
+    	
+		 <dependency>
+            <groupId>w4</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
+        </dependency>
+    	 <dependency>
+            <groupId>w5</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
+        </dependency>
+         <dependency>
+            <groupId>w6</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
+        </dependency>
+
+<dependency>
+            <groupId>w7</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
         </dependency>
         <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
-            <version>2.4</version>
+            <groupId>w8</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
         </dependency>
         <dependency>
-            <groupId>cn.xc</groupId>
-            <artifactId>sd</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>w9</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
         </dependency>
-    </dependencies>
-    <build>
-        <plugins>
+        <dependency>
+            <groupId>w10</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
+        </dependency>
+         <dependency>
+            <groupId>w11</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
+        </dependency>
+         <dependency>
+            <groupId>w12</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>w14</groupId>
+            <artifactId>w</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency><groupId>w13</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+        <dependency><groupId>w14</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w15</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w16</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w17</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w18</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w19</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w20</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w21</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w22</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w23</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w24</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w25</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w26</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w27</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w28</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w29</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w30</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w31</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w32</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w33</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w34</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w35</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w36</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w37</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w38</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w39</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w40</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w41</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w42</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w43</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w44</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w45</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w46</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w47</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w48</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w49</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w50</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w51</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w52</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w53</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w54</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w55</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w56</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w57</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w58</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w59</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w60</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w61</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w62</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w63</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w64</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w65</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w66</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w67</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w68</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w69</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w70</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w71</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w72</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w73</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w74</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w75</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w76</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w77</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w78</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w79</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w80</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w81</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w82</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w83</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w84</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w85</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w86</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w87</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w88</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w89</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w90</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w91</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w92</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w93</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w94</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w95</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w96</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w97</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w98</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w99</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w100</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w101</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w102</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w103</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w104</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w105</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w106</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w107</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w108</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+<dependency><groupId>w109</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
+	</dependencies>
 
-            <!-- 使用maven-jar-plugin和maven-dependency-plugin插件打包 -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.xhf.Test</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
-                <version>3.1.1</version>
-                <executions>
-                    <execution>
-                        <id>copy-dependencies</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>copy-dependencies</goal>
-                        </goals>
-                        <configuration>
-                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-
-        </plugins>
-    </build>
+	<properties>
+		<java.version>1.8</java.version>
+		<kotlin.version>1.3.21</kotlin.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
 </project>

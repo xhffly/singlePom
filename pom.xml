@@ -79,21 +79,18 @@
             <artifactId>w</artifactId>
             <version>1.1</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.rockset/rockset-java -->
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>5.3.7</version>
+            <groupId>com.rockset</groupId>
+            <artifactId>rockset-java</artifactId>
+            <version>0.4.7</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/se.kuseman.payloadbuilder/payloadbuilder-core -->
         <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.12.0</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>jackson-annotations</artifactId>
-                    <groupId>com.fasterxml.jackson.core</groupId>
-                </exclusion>
-            </exclusions>
+            <groupId>se.kuseman.payloadbuilder</groupId>
+            <artifactId>payloadbuilder-core</artifactId>
+            <version>0.8.0</version>
         </dependency>
         <dependency><groupId>w13</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
         <dependency><groupId>w14</groupId><artifactId>w</artifactId><version>1.1</version></dependency>

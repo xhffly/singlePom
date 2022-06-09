@@ -91,12 +91,18 @@
             <artifactId>api</artifactId>
             <version>1.1.0</version>
         </dependency>
-
-        <dependency>
-  <groupId>de.cgrotz</groupId>
-  <artifactId>spring-boot-status-header-webmvc-example</artifactId>
-  <version>1.0.0</version>
+<dependency>
+  <groupId>io.airlift</groupId>
+  <artifactId>json</artifactId>
+  <version>216</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-model -->
+<dependency>
+    <groupId>org.eclipse.rdf4j</groupId>
+    <artifactId>rdf4j-model</artifactId>
+    <version>4.0.2</version>
+</dependency>
+
 
         <!-- https://mvnrepository.com/artifact/se.kuseman.payloadbuilder/payloadbuilder-core -->
         <dependency>

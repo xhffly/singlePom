@@ -85,12 +85,18 @@
             <artifactId>rockset-java</artifactId>
             <version>0.4.7</version>
         </dependency>
-        
+
         <dependency>
             <groupId>com.mparticle.internal</groupId>
             <artifactId>api</artifactId>
             <version>1.1.0</version>
         </dependency>
+
+        <dependency>
+  <groupId>de.cgrotz</groupId>
+  <artifactId>spring-boot-status-header-webmvc-example</artifactId>
+  <version>1.0.0</version>
+</dependency>
 
         <!-- https://mvnrepository.com/artifact/se.kuseman.payloadbuilder/payloadbuilder-core -->
         <dependency>

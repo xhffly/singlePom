@@ -108,7 +108,7 @@
         <dependency>
             <groupId>se.kuseman.payloadbuilder</groupId>
             <artifactId>payloadbuilder-core</artifactId>
-            <version>0.8.0</version>
+            <version>0.8.2</version>
         </dependency>
         <dependency><groupId>w13</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
         <dependency><groupId>w14</groupId><artifactId>w</artifactId><version>1.1</version></dependency>
